@@ -1,0 +1,75 @@
+/*navbar styling*/
+*{
+	text-decoration: none;
+	list-style: none;
+}
+.navbar{
+	position: fixed;
+	width: 100%;
+	padding: 30px 0;
+	font-family: 'Ubuntu', sans-serif;
+	transition: all 0.3s ease;
+	z-index: 999;
+	text-align: center;
+	text-decoration: none;
+}
+.navbar.sticky{
+	padding: 15px 0;
+	background: #1E2832;
+	text-align: center;
+}
+.navbar .max-width{
+	text-align: center;
+	display: flex;
+    justify-content: space-between;
+    top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #000000;
+}
+.navbar .logo a{
+	color:  #000000;
+    font-family: 'AmstelvarAlpha';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+	/* margin:auto 0 auto 40px; */
+	text-align: center;
+}
+.navbar.sticky .logo a{
+	color: #fff;
+}
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+.navbar .menu li a{
+	color:#000000;;
+	font-size: 18px;
+	font-weight: 300;
+	margin-left: 25px;
+	transition: color 0.3s ease;
+	text-align: center;
+	left:300px;
+}
+.navbar.sticky .menu li a{
+    color: #fff;
+}
+.navbar .menu li a:hover{
+	color:#000000;
+}
+.line{
+	/* position: absolute; */
+	width: 80%;
+	height: 0px;
+	left: 150px;
+	top: 90px;
+	border: 1px solid #E3E3E3;
+	margin: auto;
+}
